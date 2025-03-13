@@ -133,7 +133,7 @@ class SVD_Combo(nn.Module):
         self.B = torch.matmul( self.V.weight.t(),  self.Theta.weight )
         self.B = torch.matmul( self.Sigma.weight, self.B )
         self.B = torch.matmul( self.U.weight, self.B )
-        self.B = torch.matmul( self.Theta.weight, self.B )
+        self.B = torch.matmul( torch.linalg.inv(self.Theta.weight), self.B )
 
 
 
