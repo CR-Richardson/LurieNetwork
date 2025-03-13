@@ -1,5 +1,5 @@
 # Lurie Network
-This code acompanies the paper [Lurie Networks with Robust k-contracting Dynamics](https://openreview.net/forum?id=3Jm4dbrKGZ) where the experimental setup is detailed in the *Empirical Evaluation* section. The repository contains the code used to generate the synthetic experimental data, the implementations of all the models, and a notebook used for training. 
+This code acompanies the papers [Lurie Networks with Robust k-contracting Dynamics](https://openreview.net/forum?id=3Jm4dbrKGZ) and [Lurie Networks with k-contracting Dynamics](https://openreview.net/forum?id=RaAYeCxj1u) where the experimental setups are detailed in the *Empirical Evaluation* sections. The repository contains the code used to generate the synthetic experimental data, the implementations of all the models, and a notebook used for training. 
 
 ### Authors:
 * Carl R Richardson (cr2g16@soton.ac.uk)
