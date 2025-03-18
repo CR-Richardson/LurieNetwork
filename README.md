@@ -17,11 +17,11 @@ The repository is organised as follows:
   * `Models`
     * A set of Python files containing the class of each model implemented in the papers.
   * `Train`
-          * `Train_FMNIST.py` : Script for training the models on FMNIST.
-	  * `Train.py` : Script for training the models on the dynamical systems datasets.
-	  * `Train_Tools.py` : Back-end code for `Train.py`.
+    * `Train_FMNIST.py` : Script for training the models on FMNIST.
+    * `Train.py` : Script for training the models on the dynamical systems datasets.
+    * `Train_Tools.py` : Back-end code for `Train.py`.
   * `Utils`
-          * Plots_Tools.py : A set of functions used to create the different plots seen in the papers.
+    * Plots_Tools.py : A set of functions used to create the different plots seen in the papers.
 
  * `Data` : Directory for storing datasets.
  * `Models` : Directory for storing models and associated files.
