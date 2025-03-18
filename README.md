@@ -1,5 +1,5 @@
 # Lurie Network
-This code acompanies the papers [Lurie Networks with Robust k-contracting Dynamics](https://openreview.net/forum?id=3Jm4dbrKGZ) where the experimental setup is detailed in the *Empirical Evaluation* section. The repository contains the code for generating the synthetic experimental data, implementating the models, and training. 
+This code acompanies the papers [Lurie Networks with Robust k-contracting Dynamics](https://openreview.net/forum?id=3Jm4dbrKGZ) and [Lurie Networks with k-contracting Dynamics](https://openreview.net/forum?id=RaAYeCxj1u). The repository contains code for generating the synthetic dynamical systems data, implementations of the models, and code for training the models on the synthetic dynamical systems examples and FMNIST. 
 
 ### Authors:
 * Carl R Richardson (cr2g16@soton.ac.uk)
@@ -13,19 +13,20 @@ All the code is written in Python and predominantly in PyTorch. This must be ins
 The repository is organised as follows:
 * `Code`
   * `DataGeneration`
-    *  `DataGeneration.py` : Script for generating data for the graph coupled examples. May also be used to generate data for the single network examples by setting q=1.
-    * `DataGen_Tools.py` : Backend code for generating data.
+    *  `DataGeneration.py` : Script for generating data for the dynamical systems examples.
   * `Models`
-    * A set of Python files containing the class for each model implemented in the paper.
-  * `Training`
-	  * `Train.py` : Script for training the specified model on the specified dataset.
+    * A set of Python files containing the class of each model implemented in the papers.
+  * `Train`
+          * `Train_FMNIST.py` : Script for training the models on FMNIST.
+	  * `Train.py` : Script for training the models on the dynamical systems datasets.
 	  * `Train_Tools.py` : Back-end code for `Train.py`.
-  * Plots_Tools.py : A set of functions used to create the different plots seen in the paper.
+  * `Utils`
+          * Plots_Tools.py : A set of functions used to create the different plots seen in the papers.
 
- * `Data` : Directory datasets are automatically stored in.
- * `Models` : Directory models and associated data are automatically stored in.
+ * `Data` : Directory for storing datasets.
+ * `Models` : Directory for storing models and associated files.
 
 ## Getting Started
 - Download dependencies.
 - Add root directory to relevant scripts.
-- Set hyperparameters, specify model and dataset, then run `Train.py`
+- Set hyperparameters, specify model and dataset, then run either `Train.py` or `Train_FMNIST.py`.
