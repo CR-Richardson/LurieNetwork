@@ -242,10 +242,8 @@ def main():
     print("Device in use is: ", device)
 
     # Directories
-    root = '/Users/carlrichardson/Documents/Python/LurieNet2/'
+    root = ''
     data_path = root + 'Data/'
-    # sys.path.append(root + 'Code')
-    # sys.path.append(root + 'Code/DataGeneration')
 
     # Global Variables
     name = 'Opinion' # Opinion, Hopfield, Attractor
@@ -314,3 +312,8 @@ def main():
         np.save(f, T)
 
     return 0
+
+
+
+if __name__ == '__main__':
+    main()
