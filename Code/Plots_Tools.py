@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 
 
 """
-A set of plotting functions used by the DataGen, TrainLurie, ModelComp notebooks.
+A set of plotting functions used by data generation and training scripts. Also used for creating 
+figures in paper.
 """
 
 
