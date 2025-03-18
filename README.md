@@ -13,19 +13,19 @@ All the code is written in Python and predominantly in PyTorch. This must be ins
 The repository is organised as follows:
 * `Code`
   * `DataGeneration`
-    *  `DataGen.ipynb` : Script for generating data for the graph coupled examples. May also be used to generate data for the single network examples by setting q=1.
+    *  `DataGeneration.py` : Script for generating data for the graph coupled examples. May also be used to generate data for the single network examples by setting q=1.
     * `DataGen_Tools.py` : Backend code for generating data.
   * `Models`
-    * a Python file containing the class for each model implemented in the paper.
+    * A set of Python files containing the class for each model implemented in the paper.
   * `Training`
-	  * `Train.ipynb` : Script for training the specified model on the specified dataset.
-	  * `Train_Tools.py` : Back-end code for `Train.ipynb`.
+	  * `Train.py` : Script for training the specified model on the specified dataset.
+	  * `Train_Tools.py` : Back-end code for `Train.py`.
   * Plots_Tools.py : A set of functions used to create the different plots seen in the paper.
 
- * `Data` : Directory for storing the datasets.
- * `Models` : Directory which the data for loss plots, training/model settings are automatically, and the models after each epoch are automatically saved to for each experiment.
+ * `Data` : Directory datasets are automatically stored in.
+ * `Models` : Directory models and associated data are automatically stored in.
 
 ## Getting Started
 - Download dependencies.
 - Add root directory to relevant scripts.
-- Set hyperparameters, specify model and dataset, then run `Train.ipynb`
+- Set hyperparameters, specify model and dataset, then run `Train.py`
