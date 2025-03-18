@@ -21,7 +21,9 @@ The repository is organised as follows:
     * `Train.py` : Script for training the models on the dynamical systems datasets.
     * `Train_Tools.py` : Back-end code for `Train.py`.
   * `Utils`
-    * Plots_Tools.py : A set of functions used to create the different plots seen in the papers.
+    * `ModelComp_Tools.py` : A set of functions used to evaluate/compare different models.
+    * `Plots_Tools.py` : A set of functions used to create the different plots seen in the papers.
+    * `tSNE.py` : Function for creating tSNE plot.
 
  * `Data` : Directory for storing datasets.
  * `Models` : Directory for storing models and associated files.
