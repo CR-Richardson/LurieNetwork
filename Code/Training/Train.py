@@ -12,8 +12,9 @@ import time
 
 root = ''
 sys.path.append(root + 'Code/')
-sys.path.append(root + 'Code/Training')
 sys.path.append(root + 'Code/Models')
+sys.path.append(root + 'Code/Training')
+sys.path.append(root + 'Code/Plotting')
 
 import Plots_Tools as PT
 import Train_Tools as Train
