@@ -31,4 +31,5 @@ The repository is organised as follows:
 ## Getting Started
 - Download dependencies.
 - Add root directory to relevant scripts.
-- Set hyperparameters, specify model and dataset, then run either `Train.py` or `Train_FMNIST.py`.
+- For dynamical systems examples: specify dataset parameters then generate data by running `DataGeneration.py`. Specify model and set hyperparameters, then run `Train.py`.
+- For FMNIST, download dataset, specify model, set hyperparameters, then run `Train_FMNIST.py`.
