@@ -1,5 +1,5 @@
 # Lurie Network
-This code acompanies the papers [Lurie Networks with Robust Convergent Dynamics](https://openreview.net/forum?id=3Jm4dbrKGZ) and [Lurie Networks with k-contracting Dynamics](https://openreview.net/forum?id=RaAYeCxj1u). The repository contains code for generating the synthetic dynamical systems data, implementations of the models, and code for training the models on the synthetic dynamical systems examples and FMNIST. 
+This code acompanies the papers [Lurie Networks with Robust Convergent Dynamics](https://openreview.net/forum?id=3Jm4dbrKGZ) and [Lurie Networks with k-contracting Dynamics](https://openreview.net/forum?id=RaAYeCxj1u). The repository contains code for generating the synthetic dynamical systems data, implementations of the proposed models / baselines used for comparison, and training scripts for the synthetic dynamical systems and FMNIST datasets. 
 
 ### Authors:
 * Carl R Richardson (cr2g16@soton.ac.uk)
